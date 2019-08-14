@@ -1,2 +1,2 @@
 # web
-checkpoint 1
+checkpoints
