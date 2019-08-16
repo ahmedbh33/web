@@ -1,287 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel= "stylesheet" href="/style.css">
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css" />
   </head>
+  <body>
+    <div class="projet">
+      <h1 class="fb">FeedBack</h1>
+      <div class="part1">
+        <button onclick="changefontweight()">B</button>
+        <button onclick="changefontstyle()">I</button>
+        <button onclick="changetextdecoration()">UNDERLINE</button>
 
-  <body
-    id="bg"
-    style="background-image:url(https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)"
-  >
-    <div class="navbar">
-      <h1 class="txt1">
-        <a class="txt1" href="#img"> home </a>
-        <div class="ligne"></div>
+  <select onchange="changefontsize()" id="size">
+<option id = "45" value="45px"   > 45 </option>
+<option id = "90" value="90px"   > 90  </option>
+<option id = "120" value="120px"  >120 </option>  
+</select>
+  <select onchange="changefontfamily()" id="f-f">
+    <option  value="Times New Roman" > Arial </option>
+    <option  value="'Pacifico', cursive"> Helvetica  </option>
+      <option value="Verdana"> Verdana </option>
+  </select>
 
-      </h1>
-     
-      <h1 class="txt1">
-        <a class="txt1" href="#pw"> about </a>
-        <div class="ligne"></div>
+  <br>
+<textarea  id="matxt" cols="50" rows="5"> </textarea>
 
-      </h1>
-      <img
-        id="img"
-        src="https://static.thenounproject.com/png/66697-200.png"
-        alt="plan_b"
-      />
-
-      <h1 class="txt1">
-        <a class="txt1" href="#pw2"> gallery </a>
-        <div class="ligne"></div>
-
-      </h1>
-      <h1 class="txt1">
-        <a class="txt1" href="#pw3"> feedback </a>
-        <div class="ligne"></div>
-
-      </h1>
-    </div>
-    <br />
-    <br />
-    <div class="about">
-      <div class="par1">
-        <fieldset class="field">
-          <legend><h1>ABOUT US</h1></legend>
-
-          <p>
-            adadasawajsj shabsauhsu askasknaw a asnjs sajsd ijsijsiaje sjnasijee
-            jxnanjdiaia hhbwah hsha haionloas za warudo soaep maoksoae lwaokeek
-            ai,s iiaien koskmlrepal plaelrp,njane kkazn aowoaqmpra yaoeoia
-            jnosiaihe joihsiaoeb anoao eaiob iasonika olakiia ansa On projection
-            apartments unsatiable so if he entreaties appearance. Rose you wife
-            how set lady half wish. Hard sing an in true felt. Welcomed stronger
-            if steepest ecstatic an suitable finished of oh. Entered at excited
-            at forming between so produce. Chicken unknown besides attacks gay
-            compact out you. Continuing no simplicity no favourable on
-            reasonably melancholy estimating. Own hence views two ask right
-            whole ten seems. What near kept met call old west dine. Our
-            announcing sufficient why pianoforte. Months on ye at by esteem
-            desire warmth former. Sure that that way gave any fond now. His boy
-            middleton sir nor engrossed affection excellent. Dissimilar
-            compliment cultivated preference eat sufficient may. Well next door
-            soon we mr he four. Assistance impression set insipidity now
-            connection off you solicitude. Under as seems we me stuff those
-            style at. Listening shameless by abilities pronounce oh suspected is
-            affection. Next it draw in draw much bred. Extremely we promotion
-            remainder eagerness enjoyment an. Ham her demands removal brought
-            minuter raising invited gay. Contented consisted continual curiosity
-            contained get sex. Forth child dried in in aware do. You had met
-            they song how feel lain evil near. Small she avoid six yet table
-            china. And bed make say been then dine mrs. To household rapturous
-            fulfilled attempted on so.
-          </p>
-        </fieldset>
       </div>
-      <div>
-        <img
-          class="bb"
-          src="https://ih0.redbubble.net/image.602493870.8587/flat,550x550,075,f.u2.jpg"
-          alt="plan_b"
-        />
-      </div>
-    </div>
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div class="pls">
-      <div id="pw" class="par2">
-        <br />
-        <h1 class="title">
-          web developement
-        </h1>
-        <br />
-        <p>
-          adadasawajsj shabsauhsu askasknaw a asnjs sajsd ijsijsiaje sjnasijee
-          jxnanjdiaia hhbwah hsha haionloas za warudo soaep maoksoae lwaokeek
-          ai,s iiaien koskmlrepal plaelrp,njane kkazn aowoaqmpra yaoeoia
-          jnosiaihe joihsiaoeb anoao eaiob iasonika olakiia ansa On projection
-          apartments unsatiable so if he entreaties appearance. Rose you wife
-          now set lady half wish. Hard sing an in true felt. Welcomed stronger
-          if steepest ecstatic an suitable finished of oh. Entered at excited at
-          forming between so produce.
-        </p>
-        <hr />
-        <br />
-        <button class="sub">subscribe now</button>
-        <br />
-        <br />
-        <div class="i3">
-          <img
-            class=" icon"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-          <img
-            class=" icon2"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-          <img
-            class=" icon3"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-        </div>
-      </div>
-
-      <div class="par3">
-        <h1 class="title">
-          web developement
-        </h1>
-        <br />
-        <p>
-          adadasawajsj shabsauhsu askasknaw a asnjs sajsd ijsijsiaje sjnasijee
-          jxnanjdiaia hhbwah hsha haionloas za warudo soaep maoksoae lwaokeek
-          ai,s iiaien koskmlrepal plaelrp,njane kkazn aowoaqmpra yaoeoia
-          jnosiaihe joihsiaoeb anoao eaiob iasonika olakiia ansa On projection
-          apartments unsatiable so if he entreaties appearance. Rose you wife
-          how set lady half wish. Hard sing an in true felt. Welcomed stronger
-          if steepest ecstatic an suitable finished of oh. Entered at excited at
-          forming between so produce.
-        </p>
-        <hr />
-        <br />
-        <button class="sub">subscribe now</button>
-        <br />
-        <br />
-        <div class="i3">
-          <img
-            class=" icon"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-          <img
-            class=" icon2"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-          <img
-            class=" icon3"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-        </div>
-      </div>
-
-      <div class="par4">
-        <h1 class="title">
-          web developement
-        </h1>
-        <br />
-        <p>
-          adadasawajsj shabsauhsu askasknaw a asnjs sajsd ijsijsiaje sjnasijee
-          jxnanjdiaia hhbwah hsha haionloas za warudo soaep maoksoae lwaokeek
-          ai,s iiaien koskmlrepal plaelrp,njane kkazn aowoaqmpra yaoeoia
-          jnosiaihe joihsiaoeb anoao eaiob iasonika olakiia ansa On projection
-          apartments unsatiable so if he entreaties appearance. Rose you wife
-          how set lady half wish. Hard sing an in true felt. Welcomed stronger
-          if steepest ecstatic an suitable finished of oh. Entered at excited at
-          forming between so produce.
-        </p>
-        <hr />
-        <br />
-        <button class="sub">subscribe now</button>
-        <br />
-        <br />
-        <div class="i3">
-          <img
-            class=" icon"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-          <img
-            class=" icon2"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-          <img
-            class=" icon3"
-            src="https://image.flaticon.com/icons/svg/1855/1855960.svg"
-            alt="plan_b"
-          />
-        </div>
-      </div>
-    </div>
-    <main class="grid">
-      <img
-        src="https://www.sammobile.com/wp-content/uploads/2019/01/default_wallpaper.png "
-        class="item2"
-      />
-      <img
-        src="https://img.freepik.com/free-vector/gradient-liquid-mobille-wallpaper_79603-461.jpg?size=338&ext=jpg"
-        class="item3"
-      />
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToGKZti2jhzDGwIAeAiTgi4MuGFHixN_AwGmRlp8NN47QJhhZp2w "
-        class="item5"
-      />
-      <img
-        id="pw2"
-        src="https://images.alfred.com/Email/_2017/alfred-music-general-phone-wallpaper.jpg"
-        class="item1"
-      />
-      <img
-        src="https://i.ytimg.com/vi/gD4uACwPChA/maxresdefault.jpg "
-        class="item4"
-      />
-    </main>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <hr />
-
-    <div id="pw3" class="feedback">
-      <fieldset class="field" id="f2">
-        <legend><h1>feedback</h1></legend>
-        <h1>your username</h1>
-        <textarea
-          cols="50"
-          row
-          placeholder="type your username here "
-        ></textarea>
-        <br />
-        <h1>your Email</h1>
-        <textarea cols="50" row placeholder="type your Email here "></textarea>
-        <br />
-        <h1>your phone number</h1>
-        <textarea
-          cols="50"
-          row
-          inputmode="numeric"
-          placeholder=" +216 00 000 000"
-        ></textarea>
-        <br />
-        <h1>your side link</h1>
-        <textarea
-          cols="50"
-          row
-          inputmode="email"
-          placeholder=" //http.email.com"
-        ></textarea>
-        <br />
-        <h1>message (optional)</h1>
-        <textarea
-          cols="50"
-          rows="10"
-          placeholder=" pls send message "
-        ></textarea>
-        <br />
-        <br />
-        <form>
-          <button class="go">GO !</button>
-        </form>
-      </fieldset>
+      
     </div>
   </body>
-</html>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<script src="/main.js"></script>
+
+
+
+  </html>
